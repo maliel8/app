@@ -26,7 +26,7 @@ with col2:
     st.write(donnees_entre)
 
     #chargement du model 
-    studs = pd.read_csv('/home/gama/Documents/kamerAI/app/data_me.csv')
+    studs = pd.read_csv('data_me.csv')
     
     x_train_ = studs.drop(['resultat'], axis = 1)
     y_train_ = studs['resultat']
